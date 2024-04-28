@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Clothing Products</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #008080;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+        }
+
+        header button {
+            padding: 5px 10px;
+            background-color: #008080;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .product img {
+            width: 200px;
+            height: 250px;
+            object-fit: cover;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        .product-details {
+            flex: 1;
+        }
+
+        .product-details h2 {
+            margin-top: 0;
+        }
+
+        .product-details p {
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #008080;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        form label {
+            margin-bottom: 10px;
+        }
+
+        form input,
+        form select {
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        form button {
+            padding: 5px 10px;
+            background-color: #008080;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">Home</a>
+        <div>
+            <button>Login</button>
+            <button>Sign Up</button>
+        </div>
+    </header>
+    <main>
+        <div class="product">
+            <div class="product-details">
+                <h2>Nike Air Max 270</h2>
+                <p>$120.00</p>
+                <p>Size: S, M, L, XL</p>
+            </div>
+            <img src="https://images.unsplash.com/photo-1532000000000-000000000000?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGJ8fDE2MzI0MjM&auto=format&fit=crop&w=1050&q=80" alt="Nike Air Max 270">
+        </div>
+        <div class="product">
+            <div class="product-details">
+                <h2>Nike Pro Hijab</h2>
+                <p>$30.00</p>
+                <p>Size: S, M, L, XL</p>
+            </div>
+            <img src="https://images.unsplash.com/photo-1532000000000-000000000000?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGJ8fDE2MzI0MjM&auto=format&fit=crop&w=1050&q=80" alt="Nike Pro Hijab">
+        </div>
+        <div class="product">
+            <div class="product-details">
+                <h2>Nike Air Zoom Pegasus 37</h2>
+                <p>$110.00</p>
+                <p>Size: S, M, L, XL</p>
+            </div>
+            <img src="https://images.unsplash.com/photo-1532000000000-000000000000?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGJ8fDE2MzI0MjM&auto=format&fit=crop&w=1050&q=80" alt="Nike Air Zoom Pegasus 37">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2022 Nike, Inc. All rights reserved.</p>
+    </footer>
+</body>
+</html>
